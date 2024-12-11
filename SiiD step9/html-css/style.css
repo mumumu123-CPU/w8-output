@@ -1,0 +1,12 @@
+.boxes {
+    background-color: rgb(143, 131, 131);
+    display:flex;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    text-align:center;
+    padding:20px;
+    margin:20px;
+}
