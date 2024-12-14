@@ -1,12 +1,30 @@
 .boxes {
-    background-color: rgb(143, 131, 131);
-    display:flex;
+    height: 500px; /*高さを設定*/
+    background-color: rgb(185, 108, 243); /*色を設定*/
+    display: flex; /**/
+    flex-wrap: wrap; /*改行？にする*/
+    gap: 1em; /*隙間を入れる*/
+    padding: 10px; /**/
+    justify-content: space-between; /*両端に寄せる*/
 }
 
 .box {
-    height: 100px;
-    width: 100px;
-    text-align:center;
-    padding:20px;
-    margin:20px;
+    font-size: 20px; /**/
+    color: rgb(90, 166, 237); /**/ 
+    background-color: rgb(60, 60, 60); /**/
+    width: 45%; /*ボックスの横幅％を設定*/
+    height: 45%; /*ボックスの立幅％を設定*/
+    display: flex; /**/
+    justify-content: center; /*中央揃え*/
+    align-items: center; /**/
+    border-radius: 10px; /*角を丸くする*/
+}
+
+.link {
+    text-decoration: none;
+    color: #f1ebebee;
+}
+
+.p {
+    font-size: 40px;
 }
