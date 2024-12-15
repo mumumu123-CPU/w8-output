@@ -1,0 +1,17 @@
+.User-information{
+    display:block;
+    text-align:center;
+    height:600px;
+    width:1200px;
+    background-color:rgb(59, 59, 107);
+    color:white;
+}
+
+/*テキストアラインはブロックレベル要素しか適用できない
+テーブルタグ等は違うから適用されていない*/
+
+
+
+
+
+
