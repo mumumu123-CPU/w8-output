@@ -5,6 +5,8 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: black;
+    padding-top: 100px;
 }
 
 
@@ -16,7 +18,7 @@ body{
     text-align:center;
     height:432px;
     width:768px;
-    color:white;
+    color: rgb(199, 207, 249);
     border-radius: 10px;
    
 }
@@ -53,7 +55,7 @@ body{
 }
 
 .Sign-up2{
-    color: rgb(252, 252, 252);
+    color: rgb(199, 207, 249);
    
 }
 
