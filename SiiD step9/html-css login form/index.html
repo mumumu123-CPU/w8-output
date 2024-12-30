@@ -20,7 +20,7 @@
             <table class="form-table">
                 <tbody>
 
-                    <!--メニュー欄-->
+                    <!--プラン・メニュー欄-->
                     <tr>
                         <th><label class="label" for=""menu>Plan</label></th>
                         <td>
@@ -42,13 +42,23 @@
                     <!--パスワード-->
                     <tr>
                         <th><label  for="password">Password</label></th>
-                        <td><input class="select" type="password" placeholder="●●●●●●●●●" id="passwprd" required></td>
+                        <td><input class="select" type="password" placeholder="●●●●●●●●●" id="password" required></td>
+                    </tr>
+
+                    <!--チェックボックス-->
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="checkbox" id="save-checkbox">ログイン情報を保存しない
+                            </label>
+                        </td>
                     </tr>
 
                     <!--ボタン-->
                     <tr>
                         <td class="selct" colspan="2">
                             <button class="button" type="submit">Submit</button>
+                            <button id="clear-storage" class="button" type="button">Clear</button>
                         </td>
                     </tr>
 
@@ -57,6 +67,7 @@
             <p class="Sign-up"><a class="Sign-up2" href="#">アカウント作成はこちらから</a></p>
         </form>
     </section>
+    <script src="app.js" defer></script>
 </body>
 </html>
 

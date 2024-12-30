@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: black;
+    background-color: rgb(125, 120, 120);
     padding-top: 100px;
 }
 
@@ -24,13 +24,11 @@ body{
 }
 
 .headline{
-    font-size: 50px;
-   
+    font-size: 35px;
 }
 
 .form-table{
     font-size: 25px;
-    color: rgb(199, 207, 249);
     margin: 0 auto;
 }
 
@@ -60,14 +58,21 @@ body{
 }
 
 .button{
-    background-color:white;
-    font-size: 20px;
+    background-color:transparent;
+    font-size: 25px; 
+    font-weight: bold;
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(199, 207, 249);
     box-shadow: none;
     border: none;
+    cursor: pointer;
 }
 
+#save-checkbox{
+    width: 19px;           
+    height: 19px;
+    cursor: pointer;
+}
 
 
 
